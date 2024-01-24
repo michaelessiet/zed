@@ -1,0 +1,22 @@
+[package]
+name = "fsevent"
+version = "2.0.2"
+license = "MIT"
+edition = "2021"
+publish = false
+
+
+[lib]
+path = "src/fsevent.rs"
+doctest = false
+
+[dependencies]
+bitflags = "1"
+fsevent-sys = "3.0.2"
+parking_lot.workspace = true
+
+[dev-dependencies]
+tempfile.workspace = true
+
+[package.metadata.docs.rs]
+targets = ["x86_64-apple-darwin"]
