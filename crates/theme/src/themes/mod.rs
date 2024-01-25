@@ -11,6 +11,7 @@ mod rose_pine;
 mod sandcastle;
 mod solarized;
 mod summercamp;
+mod tokyo_night;
 
 pub use andromeda::*;
 pub use atelier::*;
@@ -22,6 +23,7 @@ pub use rose_pine::*;
 pub use sandcastle::*;
 pub use solarized::*;
 pub use summercamp::*;
+pub use tokyo_night::*;
 
 use crate::UserThemeFamily;
 
@@ -37,5 +39,6 @@ pub(crate) fn all_user_themes() -> Vec<UserThemeFamily> {
         sandcastle(),
         solarized(),
         summercamp(),
+        tokyo_night(),
     ]
 }

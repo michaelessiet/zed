@@ -1,0 +1,11 @@
+{
+	"name": "Dank Neon",
+	"author": "DankNeon",
+	"themes": [
+		{
+			"name": "Dank Neon",
+			"file_name": "dank-neon.json",
+			"appearance": "dark"
+		}
+	]
+}
