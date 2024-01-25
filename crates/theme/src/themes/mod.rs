@@ -4,6 +4,7 @@
 mod andromeda;
 mod atelier;
 mod ayu;
+mod dank_neon;
 mod git_hub_dark;
 mod gruvbox;
 mod one;
@@ -16,6 +17,7 @@ mod tokyo_night;
 pub use andromeda::*;
 pub use atelier::*;
 pub use ayu::*;
+pub use dank_neon::*;
 pub use git_hub_dark::*;
 pub use gruvbox::*;
 pub use one::*;
@@ -32,6 +34,7 @@ pub(crate) fn all_user_themes() -> Vec<UserThemeFamily> {
         andromeda(),
         atelier(),
         ayu(),
+        dank_neon(),
         git_hub_dark(),
         gruvbox(),
         one(),
