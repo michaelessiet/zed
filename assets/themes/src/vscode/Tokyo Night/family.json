@@ -1,0 +1,11 @@
+{
+	"name": "Tokyo Night",
+	"author": "Enkia",
+	"themes": [
+		{
+			"name": "Tokyo Night",
+			"file_name": "tokyo-night.json",
+			"appearance": "dark"
+		}
+	]
+}
