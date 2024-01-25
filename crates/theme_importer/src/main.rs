@@ -103,7 +103,7 @@ fn main() -> Result<()> {
     let mut theme_families = Vec::new();
 
     /// Whether VS Code themes should be imported.
-    const IMPORT_VS_CODE_THEMES: bool = false;
+    const IMPORT_VS_CODE_THEMES: bool = true;
 
     if IMPORT_VS_CODE_THEMES {
         log::info!("Loading themes source...");
