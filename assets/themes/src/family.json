@@ -3,19 +3,49 @@
   "author": "simurai",
   "themes": [
     {
-      "name": "GitHub Dark Color",
-      "file_name": "ayu-light.json",
-      "appearance": "light"
-    },
-    {
-      "name": "Ayu Mirage",
-      "file_name": "ayu-mirage.json",
+      "name": "GitHub Dark",
+      "file_name": "dark.json",
       "appearance": "dark"
     },
-    {
-      "name": "Ayu Dark",
-      "file_name": "ayu-dark.json",
-      "appearance": "dark"
-    }
+		{
+			"name": "GitHub Dark Dimmed",
+			"file_name": "dark_dimmed.json",
+			"appearance": "dark"
+		},
+		{
+			"name": "GitHub Dark High Contrast",
+			"file_name": "dark_high_contrast.json",
+			"appearance": "dark"
+		},
+		{
+			"name": "GitHub Dark Default",
+			"file_name": "dark_default.json",
+			"appearance": "dark"
+		},
+		{
+			"name": "GitHub Light",
+			"file_name": "light.json",
+			"appearance": "light"
+		},
+		{
+			"name": "GitHub Light High Contrast",
+			"file_name": "light_high_contrast.json",
+			"appearance": "light"
+		},
+		{
+			"name": "GitHub Light Default",
+			"file_name": "light_default.json",
+			"appearance": "light"
+		},
+		{
+			"name": "GitHub Light Colorblind",
+			"file_name": "light_colorblind.json",
+			"appearance": "light"
+		},
+		{
+			"name": "GitHub Dark Colorblind",
+			"file_name": "dark_colorblind.json",
+			"appearance": "dark"
+		}
   ]
 }
