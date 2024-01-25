@@ -9,17 +9,17 @@
     },
 		{
 			"name": "GitHub Dark Dimmed",
-			"file_name": "dark_dimmed.json",
+			"file_name": "dark-dimmed.json",
 			"appearance": "dark"
 		},
 		{
 			"name": "GitHub Dark High Contrast",
-			"file_name": "dark_high_contrast.json",
+			"file_name": "dark-high-contrast.json",
 			"appearance": "dark"
 		},
 		{
 			"name": "GitHub Dark Default",
-			"file_name": "dark_default.json",
+			"file_name": "dark-default.json",
 			"appearance": "dark"
 		},
 		{
@@ -29,22 +29,22 @@
 		},
 		{
 			"name": "GitHub Light High Contrast",
-			"file_name": "light_high_contrast.json",
+			"file_name": "light-high-contrast.json",
 			"appearance": "light"
 		},
 		{
 			"name": "GitHub Light Default",
-			"file_name": "light_default.json",
+			"file_name": "light-default.json",
 			"appearance": "light"
 		},
 		{
 			"name": "GitHub Light Colorblind",
-			"file_name": "light_colorblind.json",
+			"file_name": "light-colorblind.json",
 			"appearance": "light"
 		},
 		{
 			"name": "GitHub Dark Colorblind",
-			"file_name": "dark_colorblind.json",
+			"file_name": "dark-colorblind.json",
 			"appearance": "dark"
 		}
   ]
