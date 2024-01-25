@@ -40,6 +40,7 @@ pub fn git_hub_dark() -> UserThemeFamily {
                         title_bar_background: Some(rgba(0x24292eff).into()),
                         toolbar_background: Some(rgba(0x24292eff).into()),
                         tab_bar_background: Some(rgba(0x1f2428ff).into()),
+                        panel_background: Some(rgba(0x1f2428ff).into()),
                         tab_inactive_background: Some(rgba(0x1f2428ff).into()),
                         tab_active_background: Some(rgba(0x24292eff).into()),
                         scrollbar_thumb_background: Some(rgba(0x6a737d33).into()),
@@ -87,6 +88,20 @@ pub fn git_hub_dark() -> UserThemeFamily {
                     player: None,
                     syntax: Some(UserSyntaxTheme {
                         highlights: vec![
+                            (
+                                "attribute".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xac6bfaff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "boolean".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0x7e87fcff).into()),
+                                    ..Default::default()
+                                },
+                            ),
                             (
                                 "comment".into(),
                                 UserHighlightStyle {
@@ -167,6 +182,41 @@ pub fn git_hub_dark() -> UserThemeFamily {
                                 },
                             ),
                             (
+                                "punctuation".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.bracket".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xfba96fff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.delimiter".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.list_marker".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.special".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
                                 "string".into(),
                                 UserHighlightStyle {
                                     color: Some(rgba(0x9ecbffff).into()),
@@ -216,7 +266,21 @@ pub fn git_hub_dark() -> UserThemeFamily {
                                 },
                             ),
                             (
+                                "function".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xb392f0ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
                                 "title".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xb392f0ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "type".into(),
                                 UserHighlightStyle {
                                     color: Some(rgba(0xb392f0ff).into()),
                                     ..Default::default()
@@ -313,6 +377,20 @@ pub fn git_hub_dark() -> UserThemeFamily {
                     syntax: Some(UserSyntaxTheme {
                         highlights: vec![
                             (
+                                "attribute".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xac6bfaff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "boolean".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0x7e87fcff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
                                 "comment".into(),
                                 UserHighlightStyle {
                                     color: Some(rgba(0x768390ff).into()),
@@ -399,6 +477,41 @@ pub fn git_hub_dark() -> UserThemeFamily {
                                 },
                             ),
                             (
+                                "punctuation".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.bracket".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.delimiter".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.list_marker".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "punctuation.special".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0xf1b3f1ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
                                 "string".into(),
                                 UserHighlightStyle {
                                     color: Some(rgba(0x96d0ffff).into()),
@@ -451,6 +564,14 @@ pub fn git_hub_dark() -> UserThemeFamily {
                                 "title".into(),
                                 UserHighlightStyle {
                                     color: Some(rgba(0xf69d50ff).into()),
+                                    ..Default::default()
+                                },
+                            ),
+                            (
+                                "type".into(),
+                                UserHighlightStyle {
+                                    color: Some(rgba(0x5f3eb5ff).into()),
+                                    font_style: Some(UserFontStyle::Italic),
                                     ..Default::default()
                                 },
                             ),
