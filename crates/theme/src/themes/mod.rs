@@ -4,28 +4,22 @@
 mod andromeda;
 mod atelier;
 mod ayu;
-mod dank_neon;
-mod git_hub_dark;
 mod gruvbox;
 mod one;
 mod rose_pine;
 mod sandcastle;
 mod solarized;
 mod summercamp;
-mod tokyo_night;
 
 pub use andromeda::*;
 pub use atelier::*;
 pub use ayu::*;
-pub use dank_neon::*;
-pub use git_hub_dark::*;
 pub use gruvbox::*;
 pub use one::*;
 pub use rose_pine::*;
 pub use sandcastle::*;
 pub use solarized::*;
 pub use summercamp::*;
-pub use tokyo_night::*;
 
 use crate::UserThemeFamily;
 
@@ -34,14 +28,11 @@ pub(crate) fn all_user_themes() -> Vec<UserThemeFamily> {
         andromeda(),
         atelier(),
         ayu(),
-        dank_neon(),
-        git_hub_dark(),
         gruvbox(),
         one(),
         rose_pine(),
         sandcastle(),
         solarized(),
         summercamp(),
-        tokyo_night(),
     ]
 }

@@ -15,7 +15,7 @@ actions!(
         CopySystemSpecsIntoClipboard,
         FileBugReport,
         RequestFeature,
-        OpenZedCommunityRepo
+        OpenZedRepo
     ]
 );
 
@@ -31,7 +31,8 @@ pub fn init(cx: &mut AppContext) {
 
                     let prompt = cx.prompt(
                         PromptLevel::Info,
-                        &format!("Copied into clipboard:\n\n{specs}"),
+                        "Copied into clipboard",
+                        Some(&specs),
                         &["OK"],
                     );
                     cx.spawn(|_, _cx| async move {
@@ -52,7 +53,7 @@ pub fn init(cx: &mut AppContext) {
                 );
                 cx.open_url(&url);
             })
-            .register_action(move |_, _: &OpenZedCommunityRepo, cx| {
+            .register_action(move |_, _: &OpenZedRepo, cx| {
                 let url = "https://github.com/zed-industries/zed";
                 cx.open_url(&url);
         });
